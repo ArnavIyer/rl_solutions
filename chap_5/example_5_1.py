@@ -117,6 +117,7 @@ class Blackjack:
                 self.v[s] = (self.N[s] * self.v[s] + r) / (self.N[s] + 1)
                 self.N[s] += 1
     
+    # --- DISCLAIMER: PLOT CODE AI GENERATED ---
     def graph(self):
         player_range = np.arange(12, 22)
         dealer_range = np.arange(1, 11)
