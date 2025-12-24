@@ -10,3 +10,5 @@ wheels/
 .venv
 
 matplotlib_ex.py
+
+.DS_Store
