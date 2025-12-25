@@ -1,10 +1,9 @@
 from matplotlib import pyplot
-import math
 import random
 from typing import Dict, Tuple, Literal
 from dataclasses import dataclass
 import numpy as np
-from abc import ABC, abstractmethod
+from abc import ABC
 
 Action4 = Literal['left', 'right', 'up', 'down']
 Action8 = Literal['left', 'leftup', 'leftdown', 'right', 'rightup', 'rightdown', 'up', 'down']
